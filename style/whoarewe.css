@@ -1,0 +1,120 @@
+
+.akos{
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 80%;
+    border-top: white 3px solid;
+    border-bottom: white 3px solid;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    
+    font-size: 30px;
+    padding-left: 40px;
+    transition: box-shadow 2s, background-color 2s, border 2s, color 1s;
+}
+
+.marci{
+    width: 80%;
+    font-size: 30px;
+    float: right;
+    border-top: white 3px solid;
+    border-bottom: white 3px solid;
+    padding-right: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 30px;
+    transition: box-shadow 2s, background-color 2s, border 2s, color 1s;  
+}
+
+.marci img{
+    width: 300px;
+    float: left;
+}
+
+.akos img{
+    width: 350px;
+    float: right;
+}
+
+
+blockquote {    
+	color: #3f3f5a;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: 100;
+	font-size: 2rem;
+	max-width: 1000px;
+	line-height: 1.4;
+	position: relative;
+	margin: 0;
+	padding: .5rem;
+}
+
+.quote{
+    margin-left: 100px;
+}
+
+.marci .quote{
+    padding: 100px 0;
+}
+
+blockquote h1{
+    font-family: 'Special Elite', cursive;
+}
+
+#focusedText{
+    color :#ce6c6c;
+    font-family: 'Special Elite', cursive;
+}
+
+blockquote:before,
+blockquote:after {
+	position: absolute;
+	color: #f1efe6;
+	font-size: 8rem;
+	width: 4rem;
+	height: 4rem;
+}
+
+blockquote:before {
+	content: '“';
+	left: -2rem;
+	top: -3rem;
+}
+
+blockquote:after {
+	content: '”';
+	right:-1rem;
+	bottom: 3rem;
+}
+
+blockquote:after {
+	content: '”';
+	right:-1rem;
+	bottom: 3rem;
+}
+
+.marci blockquote:before{
+	content: '“';
+	left: 18rem;
+	top: -3rem;
+}
+
+.marci blockquote:after {
+	content: '”';
+	right:18rem;
+	bottom: 0rem;
+}
+
+
+.cite{
+    text-align: right;
+    text-shadow: rgb(247, 158, 142) 1px 1px ;
+}
+
+.akos .cite{
+    text-align: left;
+}
+

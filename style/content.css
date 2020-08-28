@@ -1,5 +1,3 @@
-
-
 .mainContent{
     overflow: auto;
     width: 90%; 
@@ -89,3 +87,6 @@ button:hover{
     margin-top: 200px
 }
 
+.rightSide img{
+    width: 150px;
+}
